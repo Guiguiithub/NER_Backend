@@ -6,7 +6,7 @@ namespace WebAPI.Models
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        [NotMapped] public IFormFile Image { get; set; }
+        public string Image { get; set; }
         public string Street { get; set; }
         public string No { get; set; }
         public int PostCode { get; set; }
