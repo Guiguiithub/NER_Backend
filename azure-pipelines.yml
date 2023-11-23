@@ -36,7 +36,6 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure for Students(9f04ed5b-468a-4b99-8c24-d1a486eb7a06)'
     appType: 'apiApp'
     WebAppName: 'UAS7WebApi'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/../a/**/*.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory/../a)/**/*.zip'
