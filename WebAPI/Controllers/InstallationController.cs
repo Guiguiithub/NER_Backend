@@ -13,7 +13,7 @@ using DAL.Models;
 namespace WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/")]
     public class InstallationController : ControllerBase
     {
         private readonly InstallationContext _context;
